@@ -4,7 +4,7 @@ function Calculate() {
 
     let newHeight = ((height / 100) * 2);
     let result = (weight / newHeight)
-    if (result < 0||result===null||result===undefined) {
+    if (result < 0||result===null||result==="undefined") {
         document.getElementById("result").innerHTML = "Insufficient or Invalid Data";
         document.getElementById("status").innerHTML = "Insufficient or Invalid Data";
     }
