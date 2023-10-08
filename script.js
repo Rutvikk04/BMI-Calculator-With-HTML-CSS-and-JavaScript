@@ -16,7 +16,7 @@ function Calculate() {
         console.log(status)
 
 
-        document.getElementById("result").innerHTML = result;
-        document.getElementById("status").innerHTML = status;
+        document.getElementById("result").innerHTML = Math.floor(result);
+        document.getElementById("status").innerHTML = (status);
     }
 }
